@@ -8,6 +8,41 @@ This project was developed as part of the Prodigy InfoTech Cyber Security Intern
 
 ---
 
+## Caesar Cipher Concept
+
+The **Caesar Cipher** is one of the earliest and simplest encryption techniques. It is a **substitution cipher** where each letter in the plaintext is shifted by a fixed number of positions in the alphabet.
+
+### Example (Shift = 3)
+
+| Plaintext | Ciphertext |
+|-----------|------------|
+| A | D |
+| B | E |
+| C | F |
+| X | A |
+| Y | B |
+| Z | C |
+
+### Encryption Example
+
+```text
+Plaintext : HELLO
+Shift     : 3
+Ciphertext: KHOOR
+```
+
+### Decryption Example
+
+```text
+Ciphertext: KHOOR
+Shift     : 3
+Plaintext : HELLO
+```
+
+CipherForge demonstrates the Caesar Cipher algorithm through text encryption, text decryption, brute-force analysis, file processing, and security reporting, helping users understand the fundamentals of classical cryptography in a practical way.
+
+---
+
 ## Features
 
 ### Text Encryption
@@ -118,7 +153,15 @@ python3 caesar_cipher.py
 
 ---
 
-## Sample Features Demonstrated
+## Demo Video
+
+Watch the project demonstration on LinkedIn:
+
+[LinkedIn Demo Video](https://www.linkedin.com/posts/activity-7472950893609676800-0qR3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFJ8ul4BQ42d707c6KxMYCd3agIPNUqbyhA)
+
+---
+
+## Key Functionalities
 
 * Encrypt Text
 * Decrypt Text
